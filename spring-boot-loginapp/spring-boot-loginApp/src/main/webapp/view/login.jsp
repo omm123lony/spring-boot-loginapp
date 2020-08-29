@@ -52,12 +52,12 @@ body {
                         <form id="login-form" class="form" action="logdin" method="post">
                             <h3 class="text-center text-info">Login</h3>
                             <div class="form-group">
-                                <label for="username" class="text-info">Username:</label><br>
-                                <input type="text" name="email" id="username" class="form-control" required="required">
+                                <label for="username" class="text-info">Username/Email:</label><br>
+                                <input type="text" name="email" id="username" class="form-control" placeholder="Enter email" required="required">
                             </div>
                             <div class="form-group">
                                 <label for="password" class="text-info">Password:</label><br>
-                                <input type="text" name="password" id="password" class="form-control" required="required">
+                                <input type="password" name="password" id="password" class="form-control" required="required">
                             </div>
 							
 							<div class="form-group">
